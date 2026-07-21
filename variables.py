@@ -12,3 +12,6 @@ x, y, z = fruites
 print( x , y , z )
 print( x + y + z )
 print ( c1 + a )
+#complex variables
+com = 10+3j
+print (com,type(com))
