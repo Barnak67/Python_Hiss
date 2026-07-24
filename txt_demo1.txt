@@ -1,0 +1,4 @@
+this is a demo text.
+this is created to see if i am able to perform file operation in python.
+path of this file is 
+/Users/barnak67/Desktop/Python_Hiss/txt_demo1.txt
