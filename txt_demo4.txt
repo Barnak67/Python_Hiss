@@ -1,5 +1,5 @@
 Hello!
-My name is Barnak
-This is a file created by fileIO operation
-I created it using write function 
-this is from fileIO practice1
+My-name-is-Barnak
+This-is-a-file-created-by-fileIO-operation
+I-created-it-using-write-function-
+this-is-from-fileIO-practice1
