@@ -9,4 +9,18 @@ def searchThing (fileName):
     else:
         print ("Not Found")
 
+#Now checking in which line the data exists 
+
+def cek_for_line(filename):
+    word = "practice1"
+    data = True
+    lineCount = 1
+    with open ( filename, "r" ) as f:
+        while data:
+            data = f.readline()
+            if ( word in data ):
+                print(lineCount)
+            lineCount += 1
+
 searchThing( "txt_demo4.txt" )
+cek_for_line( "txt_demo4.txt" )
