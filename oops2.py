@@ -12,6 +12,10 @@ class Student:
         self.marks = marks
         print ("adding new databased into Databases")
 
+    @staticmethod #this is a decorator 
+    def egStatic():
+        print("this is a static method")
+
     def welcome(self):
         print("hello students", self.name)
 
@@ -26,3 +30,5 @@ s2 = Student("Arjun", 60)
 print(s2.name, s2.marks)
 
 print(s2.clg_name)
+
+s1.egStatic()
